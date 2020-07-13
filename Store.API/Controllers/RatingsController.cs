@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Store.API.Controllers
 {
     [Route("/api/[controller]")]
-    public class ModelController: Controller
+    public class RatingsController: Controller
     {
 
     }

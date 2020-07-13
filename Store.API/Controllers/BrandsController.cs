@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace Store.API.Controllers
 {
     [Route("/api/[controller]")]
-    public class StyleController: Controller
+    public class BrandsController: Controller
     {
-
-    }
+        
+    } 
 }
