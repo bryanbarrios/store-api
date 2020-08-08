@@ -1,13 +1,13 @@
 namespace Store.API.Domain.Models
 {
-    class Model
+    public class Model
     {  
-        private int ModelId { get; set; }
-        private string Name { get; set; }
-        private string Description { get; set; }
-        private Category Category { get; set; }
-        private Brand Brand { get; set; }
-        private Material Material { get; set; }
-        private Style Style { get; set; }
+        public int ModelId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public Category Category { get; set; }
+        public Brand Brand { get; set; }
+        public Material Material { get; set; }
+        public Style Style { get; set; }
     }
 }

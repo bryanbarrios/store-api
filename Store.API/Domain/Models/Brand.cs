@@ -1,9 +1,9 @@
 namespace Store.API.Domain.Models
 {
-    class Brand
+    public class Brand
     {
-        private int BrandId { get; set; }
-        private string Name { get; set; }
-        private string Description { get; set; }
+        public int BrandId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

@@ -1,9 +1,9 @@
 namespace Store.API.Domain.Models
 {
-    class Material
+    public class Material
     {
-        private int MaterialId { get; set; }
-        private string Name { get; set; }
-        private string Description { get; set; }
+        public int MaterialId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

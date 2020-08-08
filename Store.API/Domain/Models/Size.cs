@@ -2,9 +2,9 @@ using System.Collections.Generic;
 
 namespace Store.API.Domain.Models
 {
-    class Size
+    public class Size
     {
-        private Type Type { get; set; }
-        private List<string> AvailableSizes { get; set; }
+        public Type Type { get; set; }
+        public List<string> AvailableSizes { get; set; }
     }
 }

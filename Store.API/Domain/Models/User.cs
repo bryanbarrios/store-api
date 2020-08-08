@@ -2,16 +2,16 @@ using System;
 
 namespace Store.API.Domain.Models
 {
-    class User
+    public class User
     {
-        private int UserId { get; set; }
-        private string FirstName { get; set; }
-        private string LastName { get; set; }
-        private string Username { get; set; }
-        private string Email { get; set; }
-        private string Password { get; set; }
-        private DateTime CreatedAt { get; set; }
-        private DateTime LastLogin { get; set; }
-        private bool IsActive { get; set; }
+        public int UserId { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime LastLogin { get; set; }
+        public bool IsActive { get; set; }
     }
 }

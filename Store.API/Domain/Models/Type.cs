@@ -1,9 +1,9 @@
 namespace Store.API.Domain.Models
 {
-    class Type
+    public class Type
     {
-        private int TypeId { get; set; }
-        private string MadeFor { get; set; }
-        private string Code { get; set; }
+        public int TypeId { get; set; }
+        public string MadeFor { get; set; }
+        public string Code { get; set; }
     }
 }

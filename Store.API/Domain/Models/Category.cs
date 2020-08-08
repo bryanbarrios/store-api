@@ -1,9 +1,9 @@
 namespace Store.API.Domain.Models
 {
-    class Category
+    public class Category
     {
-        private int CategoryId { get; set; }
-        private string Name { get; set; }
-        private string Description { get; set; }
+        public int CategoryId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

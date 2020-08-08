@@ -1,10 +1,10 @@
 namespace Store.API.Domain.Models
 {
-    class Rating
+    public class Rating
     {
-        private int RatingId { get; set; }
-        private Shoe Shoe { get; set; }
-        private User User { get; set; }
-        private float RatingValue { get; set; }
+        public int RatingId { get; set; }
+        public Shoe Shoe { get; set; }
+        public User User { get; set; }
+        public float RatingValue { get; set; }
     }
 }

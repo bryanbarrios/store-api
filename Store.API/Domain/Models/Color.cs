@@ -1,9 +1,9 @@
 namespace Store.API.Domain.Models
 {
-    class Color
+    public class Color
     {
-        private int ColorId { get; set; }
-        private string HexCode { get; set; }
-        private string ColorName { get; set; }
+        public int ColorId { get; set; }
+        public string HexCode { get; set; }
+        public string ColorName { get; set; }
     }   
 }

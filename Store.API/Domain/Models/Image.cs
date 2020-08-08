@@ -1,11 +1,11 @@
 namespace Store.API.Domain.Models
 {
-    class Image
+    public class Image
     {
-        private int ImageId { get; set; }
-        private string OriginalResolution { get; set; }
-        private string HighResolution { get; set; }
-        private string MediumResolution { get; set; }
-        private string LowResolution { get; set; }
+        public int ImageId { get; set; }
+        public string OriginalResolution { get; set; }
+        public string HighResolution { get; set; }
+        public string MediumResolution { get; set; }
+        public string LowResolution { get; set; }
     }
 }
